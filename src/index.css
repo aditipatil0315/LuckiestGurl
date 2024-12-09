@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    font-family: "Playfair Display";
+    color: #000;
+    transition: linear 0.5s ease;
+}
+
+body {
+    
+    overflow-x: hidden;
+    transition: linear 0.5s ease;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+canvas {
+    pointer-events: none;
+}
+
+.bannertext{
+    font-family: 'Playfair Display';
+    cursor: pointer;
+    transition: linear 0.5s ease;
+
+}
+
